@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import img from "../assests/images/codeathon.png";
+import img from "../assests/images/codeathon1.png";
 import { TimelineLayout } from "../components/ui/timeline-layout";
 import {
   FaCalendarAlt,
@@ -34,7 +34,7 @@ const Hackathon = () => {
   }, []);
 
   function calculateTimeLeft() {
-    const difference = +new Date("2025-03-25T12:00:00+00:00") - +new Date();
+    const difference = +new Date("2025-04-09T12:00:00+00:00") - +new Date();
     if (difference <= 0) return { days: 0, hours: 0, minutes: 0, seconds: 0 };
 
     return {
@@ -47,7 +47,7 @@ const Hackathon = () => {
 
   const handleRegisterClick = () => {
     window.open(
-      "https://docs.google.com/forms/d/e/1FAIpQLSdmhETKuZvrNxMTJyymX1KKXdEj5Bub7k1QzhoNxeq8IpqkJw/viewform?usp=sharing",
+      "https://forms.gle/Rd87q3cF2zyh7nMt5",
       "_blank"
     );
     setHasRegistered(true);
@@ -115,7 +115,7 @@ const Hackathon = () => {
               {[
                 {
                   title: "Date & Venue",
-                  description: "25th & 26th March",
+                  description: "09th & 10th April",
                   subDescription: "AITS, Tirupati",
                   icon: FaCalendarAlt,
                 },
@@ -126,8 +126,8 @@ const Hackathon = () => {
                   icon: FaUserGraduate,
                 },
                 {
-                  title: "Team Size",
-                  description: "Round 1 individual, Round 2 Max of 5 Members",
+                  title: "Team Details",
+                  description: "Round 1 individual, Round 2 Team of 5 Members",
                   icon: FaUser,
                 },
                 {
@@ -138,7 +138,7 @@ const Hackathon = () => {
                 {
                   title: "Tech",
                   description:
-                    "c, Python, Java, SQL, C++ more are allowed",
+                    "c, Python, Java more are allowed",
                   icon: FaLaptopCode,
                 },
               ].map((item, index) => (
@@ -167,7 +167,7 @@ const Hackathon = () => {
                 className="bg-blue-600 hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg motion-translate-y-in-[20%]"
                 onClick={() =>
                   window.open(
-                   "https://docs.google.com/forms/d/e/1FAIpQLSdmhETKuZvrNxMTJyymX1KKXdEj5Bub7k1QzhoNxeq8IpqkJw/viewform?usp=sharing",
+                   "https://forms.gle/Rd87q3cF2zyh7nMt5",
                    "_blank"
                   )
                 }
@@ -214,7 +214,7 @@ const Hackathon = () => {
                 {
                   title: "Innovative Projects",
                   description:
-                    "Develop and create groundbreaking solutions to complex challenges.",
+                    "Develop and create ground breaking solutions to complex challenges.",
                   icon: FaLightbulb,
                 },
                 {
@@ -226,7 +226,7 @@ const Hackathon = () => {
                 {
                   title: "Recruitment Opportunities",
                   description:
-                    "Showcase your skills and get noticed by top companies for potential job offers.",
+                    "Showcase your skills and get noticed by top companies for potential Internship offers.",
                   icon: FaBuilding,
                 },
                 {
@@ -335,7 +335,7 @@ const Hackathon = () => {
               className="faq-answer text-muted-foreground mt-2 text-black dark:text-white"
             >
               You have complete freedom to choos any programming language such as
-              Python, Java, JavaScript, c, c++ etc..,
+              Python, Java,  c etc..,
             </div>
           )}
               </div>
