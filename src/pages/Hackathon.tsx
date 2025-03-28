@@ -131,8 +131,8 @@ const Hackathon = () => {
                   icon: FaUser,
                 },
                 {
-                  title: "Intra-College Teams",
-                  description: "All AITS Students Accors all Depts ",
+                  title: "Inter-Colleges",
+                  description: "All Students Accors all Depts",
                   icon: FaUniversity,
                 },
                 {
@@ -140,6 +140,13 @@ const Hackathon = () => {
                   description:
                     "c, Python, Java more are allowed",
                   icon: FaLaptopCode,
+                },
+                {
+                  title: "Participation Type",
+                  description:
+                    "Online - Other College's Students, Offline - AITS College's Students",
+                    
+                  icon: FaUser,
                 },
               ].map((item, index) => (
                 <div
@@ -283,7 +290,7 @@ const Hackathon = () => {
               className="faq-answer text-muted-foreground mt-2 text-black dark:text-white"
             >
               The Codeathon 2025 is open to all undergraduate and postgraduate
-              students from all AITS across India. This
+              students from all colleges across India. This
               includes students pursuing BE, BTech, M.Tech, MCA, and other
               relevant courses.
             </div>
