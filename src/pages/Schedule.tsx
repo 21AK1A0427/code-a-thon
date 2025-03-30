@@ -183,7 +183,7 @@ import {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--event"
-          date="09:30 PM - 10:30 AM"
+          date="09:30 AM - 10:30 AM"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<FaUsers />}
           contentStyle={{ background: "#222", color: "#fff" }}
