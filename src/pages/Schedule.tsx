@@ -248,5 +248,4 @@ import {
       </div>
     );
   };
-
   export default Schedule;
